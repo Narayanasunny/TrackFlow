@@ -1,0 +1,85 @@
+
+{
+  "track_sections": [
+    {
+      "section_id": "SEC_AB",
+      "from_station": "STA",
+      "to_station": "STB",
+      "track_type": "single",
+      "travel_time_minutes": 10,
+      "minimum_headway_minutes": 3,
+      "available": true,
+      "crossing_allowed": false
+    },
+    {
+      "section_id": "SEC_BC",
+      "from_station": "STB",
+      "to_station": "STC",
+      "track_type": "single",
+      "travel_time_minutes": 12,
+      "minimum_headway_minutes": 3,
+      "available": true,
+      "crossing_allowed": false
+    },
+    {
+      "section_id": "SEC_CD",
+      "from_station": "STC",
+      "to_station": "STD",
+      "track_type": "single",
+      "travel_time_minutes": 9,
+      "minimum_headway_minutes": 3,
+      "available": true,
+      "crossing_allowed": false
+    },
+    {
+      "section_id": "SEC_DE",
+      "from_station": "STD",
+      "to_station": "STE",
+      "track_type": "single",
+      "travel_time_minutes": 11,
+      "minimum_headway_minutes": 3,
+      "available": true,
+      "crossing_allowed": false
+    },
+    {
+      "section_id": "SEC_BD",
+      "from_station": "STB",
+      "to_station": "STD",
+      "track_type": "single",
+      "travel_time_minutes": 15,
+      "minimum_headway_minutes": 4,
+      "available": true,
+      "crossing_allowed": false
+    },
+    {
+      "section_id": "SEC_AC",
+      "from_station": "STA",
+      "to_station": "STC",
+      "track_type": "single",
+      "travel_time_minutes": 18,
+      "minimum_headway_minutes": 4,
+      "available": true,
+      "crossing_allowed": false
+    },
+    {
+      "section_id": "SEC_CE",
+      "from_station": "STC",
+      "to_station": "STE",
+      "track_type": "single",
+      "travel_time_minutes": 17,
+      "minimum_headway_minutes": 4,
+      "available": true,
+      "crossing_allowed": false
+    },
+    {
+      "section_id": "SEC_BD_LOOP",
+      "from_station": "STB",
+      "to_station": "STD",
+      "track_type": "double",
+      "travel_time_minutes": 15,
+      "minimum_headway_minutes": 4,
+      "available": true,
+      "crossing_allowed": true
+    }
+  ]
+}

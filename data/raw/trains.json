@@ -1,0 +1,125 @@
+
+{
+  "trains": [
+    {
+      "train_id": "T101",
+      "train_name": "Express Alpha",
+      "train_type": "express",
+      "priority": 1,
+      "route": ["STA", "STB", "STC", "STD", "STE"],
+      "scheduled_departure_minutes": 0,
+      "target_arrival_minutes": 45,
+      "speed_category": "fast",
+      "stopping_time_minutes": 2,
+      "status": "scheduled"
+    },
+    {
+      "train_id": "T102",
+      "train_name": "Passenger Beta",
+      "train_type": "passenger",
+      "priority": 2,
+      "route": ["STE", "STD", "STC", "STB", "STA"],
+      "scheduled_departure_minutes": 3,
+      "target_arrival_minutes": 48,
+      "speed_category": "medium",
+      "stopping_time_minutes": 3,
+      "status": "scheduled"
+    },
+    {
+      "train_id": "T103",
+      "train_name": "Freight Gamma",
+      "train_type": "freight",
+      "priority": 3,
+      "route": ["STA", "STC", "STE"],
+      "scheduled_departure_minutes": 6,
+      "target_arrival_minutes": 45,
+      "speed_category": "slow",
+      "stopping_time_minutes": 0,
+      "status": "scheduled"
+    },
+    {
+      "train_id": "T104",
+      "train_name": "Express Delta",
+      "train_type": "express",
+      "priority": 1,
+      "route": ["STE", "STD", "STB", "STA"],
+      "scheduled_departure_minutes": 8,
+      "target_arrival_minutes": 38,
+      "speed_category": "fast",
+      "stopping_time_minutes": 2,
+      "status": "scheduled"
+    },
+    {
+      "train_id": "T105",
+      "train_name": "Passenger Epsilon",
+      "train_type": "passenger",
+      "priority": 2,
+      "route": ["STA", "STB", "STD", "STE"],
+      "scheduled_departure_minutes": 12,
+      "target_arrival_minutes": 48,
+      "speed_category": "medium",
+      "stopping_time_minutes": 3,
+      "status": "scheduled"
+    },
+    {
+      "train_id": "T106",
+      "train_name": "Freight Zeta",
+      "train_type": "freight",
+      "priority": 3,
+      "route": ["STE", "STC", "STA"],
+      "scheduled_departure_minutes": 15,
+      "target_arrival_minutes": 50,
+      "speed_category": "slow",
+      "stopping_time_minutes": 0,
+      "status": "scheduled"
+    },
+    {
+      "train_id": "T107",
+      "train_name": "Passenger Eta",
+      "train_type": "passenger",
+      "priority": 2,
+      "route": ["STB", "STC", "STD", "STE"],
+      "scheduled_departure_minutes": 18,
+      "target_arrival_minutes": 55,
+      "speed_category": "medium",
+      "stopping_time_minutes": 3,
+      "status": "scheduled"
+    },
+    {
+      "train_id": "T108",
+      "train_name": "Express Theta",
+      "train_type": "express",
+      "priority": 1,
+      "route": ["STE", "STC", "STB"],
+      "scheduled_departure_minutes": 20,
+      "target_arrival_minutes": 55,
+      "speed_category": "fast",
+      "stopping_time_minutes": 2,
+      "status": "scheduled"
+    },
+    {
+      "train_id": "T109",
+      "train_name": "Passenger Iota",
+      "train_type": "passenger",
+      "priority": 2,
+      "route": ["STA", "STC", "STE"],
+      "scheduled_departure_minutes": 24,
+      "target_arrival_minutes": 65,
+      "speed_category": "medium",
+      "stopping_time_minutes": 3,
+      "status": "scheduled"
+    },
+    {
+      "train_id": "T110",
+      "train_name": "Freight Kappa",
+      "train_type": "freight",
+      "priority": 3,
+      "route": ["STE", "STD", "STC", "STA"],
+      "scheduled_departure_minutes": 27,
+      "target_arrival_minutes": 75,
+      "speed_category": "slow",
+      "stopping_time_minutes": 0,
+      "status": "scheduled"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+
+fastapi
+uvicorn[standard]
+pydantic
+ortools
+langgraph
+scikit-learn
+pytest
+httpx

@@ -1,0 +1,35 @@
+
+{
+  "stations": [
+    {
+      "station_id": "STA",
+      "name": "Central Junction",
+      "platform_capacity": 3,
+      "has_crossing_loop": false
+    },
+    {
+      "station_id": "STB",
+      "name": "North Junction",
+      "platform_capacity": 2,
+      "has_crossing_loop": true
+    },
+    {
+      "station_id": "STC",
+      "name": "River Side",
+      "platform_capacity": 2,
+      "has_crossing_loop": false
+    },
+    {
+      "station_id": "STD",
+      "name": "Industrial Junction",
+      "platform_capacity": 3,
+      "has_crossing_loop": true
+    },
+    {
+      "station_id": "STE",
+      "name": "East Terminal",
+      "platform_capacity": 3,
+      "has_crossing_loop": false
+    }
+  ]
+}
